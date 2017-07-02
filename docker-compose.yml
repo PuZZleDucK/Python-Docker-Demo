@@ -3,7 +3,7 @@ services:
   web:
     image: puzzleduck/testing:pythondemo
     deploy:
-      replicas: 5
+      replicas: 2
       resources:
         limits:
           cpus: "0.1"
